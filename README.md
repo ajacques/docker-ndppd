@@ -1,6 +1,6 @@
 # docker-ndppd
 
-https://badge.imagelayers.io/ajacques/ndppd:latest.svg)
+[![](https://badge.imagelayers.io/ajacques/ndppd:latest.svg)](https://imagelayers.io/?images=ajacques/ndppd:latest 'Get your own badge on imagelayers.io')
 
 This is a Docker container that integrates the NDP-proxy from [DanielAdolfsson/ndppd](https://github.com/DanielAdolfsson/ndppd).
 
