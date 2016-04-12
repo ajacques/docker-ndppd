@@ -1,4 +1,4 @@
-FROM ubuntu:15.04
+FROM ubuntu:16.04
 
 ENV VERSION 0.2.4
 RUN apt-get update && apt-get install --no-install-recommends -qy g++ make wget ca-certificates && \
