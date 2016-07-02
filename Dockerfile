@@ -1,7 +1,8 @@
 FROM ubuntu:16.04
 
-ENV NDPPD_VERSION 0.2.5
-RUN apt-get update && apt-get install --no-install-recommends -qy g++ make wget ca-certificates && \
+RUN export NDPPD_VERSION=0.2.5 \
+    && apt-get update \
+    && apt-get install --no-install-recommends -qy g++ make wget ca-certificates && \
 # Fetch source code from GitHub
     wget -q -O - "$@" https://github.com/DanielAdolfsson/ndppd/archive/${NDPPD_VERSION}.tar.gz | tar -xzC /usr/src && \
     cd /usr/src/ndppd-${NDPPD_VERSION} && \
