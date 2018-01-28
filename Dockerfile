@@ -1,4 +1,4 @@
-FROM ubuntu:16.10
+FROM ubuntu:17.10
 
 RUN export NDPPD_VERSION=0.2.5 \
     && apt-get update \
